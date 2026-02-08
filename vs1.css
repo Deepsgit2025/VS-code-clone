@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url("https://st2.depositphotos.com/5501600/9526/i/450/depositphotos_95265632-stock-photo-black-grunge-dark-texture-background.jpg");
+   background-size: cover;
+   background: #0d1117;
+   font-weight: 400;
+}
+.navbar{
+    height: 74px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("io.png");
+    background-size: cover;
+    height: 65px;
+    display: flex;
+     margin-left: 20px;
+    width: 60px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.nav-ops{
+    text-align: center;
+    display: flex;
+    margin-right: 50px;
+}
+.nav-ops a{
+    color: #9ba3b4;
+    margin-right:18px;
+    font-size: 1.2rem;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+
+}
+.nav-search{
+    display: flex;
+}
+.searchbar{
+    height: 34px;
+    width: 200px;
+    color: #9ba3b4;
+    font-size: 0.85rem;
+    border: 1.9px solid white;
+    border-radius: 4PX;
+    margin-right: 20px;
+}
+button{
+    background-color: blue;
+    font-size: 0.85rem;
+    color: #9ba3b4;
+    height: 36px;
+    width: 120px;
+    border-radius: 4PX;
+    border: 1.5px solid white;
+    margin-right: 40px;
+}
+.headline{
+    height: 40px;
+    background-color: #0d1117;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #9ba3b4;
+}
+.headline a{
+    color: aqua;
+    font-size: 0.85rem;
+}
+.bighead{
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: white;
+    height: 175px;
+    margin-top: 80px;
+    margin-left:475px;
+}
+.download-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    margin-top: 100px;
+    background-color: #0f1111;
+}
+.downloadlink a{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.downloader1{
+    display: flex;
+    color: #9ba3b4;
+    font-size: 0.7rem;
+    justify-content: center;
+    font-weight: 900px;
+    align-items: center;
+}
+.downloader2{
+    display: flex;
+    color: #9ba3b4;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900px;
+    font-size: 0.7rem;
+}
+.downloader1 a{
+    color: #9ba3b4;
+    font-size: 0.7rem;
+    font-weight: 800px;
+}
+.downloader2 a{
+    color: #9ba3b4;
+    font-size: 0.7rem;
+    font-weight: 900px;
+}
+.bigphot{
+    display: flex;
+    height: 800px;
+    background-color: #0d1117;
+    justify-content: center;
+    align-items: center;
+}
+.codearea{
+    height: 750px;
+    width: 1160px;
+    margin-top: 80px;
+    border: 20px solid rgb(47, 47, 196);
+    background-image: url("pookie.jpg");
+    background-size: cover;
+    background-color: pink;
+}
+.try-box{
+    display: flex;
+    align-items: center;
+    height: 260px;
+    justify-content: center;
+}
+.outbox{
+    height:140px;
+    width:1200px;
+    background-color: rgb(47, 47, 196);
+    border-radius: 25px;
+    display: flex;
+    margin-top:90px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.firstline{
+    font-size: 30px;
+    margin-left: 100px;
+    color: white;
+    margin-right: 210px;  
+}
+.secondline{
+    font-size: 24px;
+    color: white;
+}
+.avi{
+    width: 150px;
+    height: 38px;
+    color: white;
+    font-size: 21px;
+    background-color: black;
+    margin-top: 25px;
+}
+.new1div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin-left:100px ;
+    margin-top: 360px;
+    margin-bottom: 100px;
+    
+}
+.text{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 310px;
+    margin-bottom: 260px;
+}
+.boxo{
+    margin-top: 410px;
+    background-size: cover;
+    height: 643px;
+    width: 900px;
+    margin-right: 70px;
+    margin-bottom: 400px;
+
+}
+.new2-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin-left:100px ;  
+}
+.text1{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 310px;
+    margin-top: 350px;
+}
+.text a{
+    color: aqua;
+}
+.text1 a{
+    color: aqua;
+}
+.imh{
+    background-size: cover;
+    background-image: url("dhoni.png");
+    margin-top: 700px;
+    height: 643px;
+    margin-right: 70px;
+    width: 900px;
+
+}
+.javao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    margin-top: 280px;
+    margin-left:100px ;  
+     margin-right:150px ;  
+}
+.text2{
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    width: 310px;
+    margin-top: 800px;
+}
+.rimh{
+    background-size: cover;
+    background-image: url("herooo.png");
+    margin-top: 740px;
+    height: 203px;
+    margin-right: 50px;
+    width: 700px;
+
+}
+.fiji{
+    margin-top: 420px;
+    justify-content: center;
+    align-items: center;
+    color: #9ba3b4;
+    text-align: center;
+    font-size: 20px;
+}
+.onlytext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.boxleader{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 200px;
+    margin-top: 180px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    background-color: rgb(36, 32, 32);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box a{
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.boxleader2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
