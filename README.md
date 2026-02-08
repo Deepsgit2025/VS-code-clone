@@ -67,7 +67,7 @@ The goal of this project is to practice **layout structuring, flexbox, spacing, 
 
 ## 👤 Author
 
-**Archit Jain**  
+**Deep Mehta**  
 Frontend Learner | Exploring Web Development  
 
 ---
